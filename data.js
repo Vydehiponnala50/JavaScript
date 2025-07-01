@@ -1,0 +1,20 @@
+let a=10;
+let b=50.4;
+let c="string";
+let e=null;
+let d=true;
+let f=undefined;
+let g;console.log(a);
+let i=BigInt(138294638956799890787857876n);
+let s={ name:"john",age:30,isstudent:false
+};
+let h=Symbol("symbol");
+console.log(s);
+console.log(c);
+console.log(d);
+console.log(e);
+console.log(f);
+console.log(b);
+let arr=[1, 2, 3, 4];
+console.log(arr);
+console.log(h);

@@ -1,0 +1,13 @@
+console.log("welcome to  maisammaguda");
+var d=20;
+console.log(d);
+var d=30;
+console.log(d);
+let a=20;
+console.log(a);
+a=34;
+console.log(a);
+const b=10;
+console.log(b);
+r=2;
+q='2';

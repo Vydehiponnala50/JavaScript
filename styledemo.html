@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Style demo</h1>
+    <br>
+    <p>
+        this is a paragraph demonstrating the styles applied to this document.
+    </p>
+    
+    <button onclick ="g()" >Click me!</button>
+    
+<div class ="division-block">
+    <h1>
+        heading of division block 
+    </h1>
+</div>
+<button onclick="diss()">click me</button>
+    <script>
+
+function f() {
+    let a = document.body.style.backgroundColor;
+    setInterval(()=>{
+        document.body.style.backgroundColor=document.body.style.backgroundColor==='red'?'blue':'red';
+    },50);
+
+}
+function g(){
+    let a=["red","blue","green","yellow"];
+    let i=0;
+    setInterval(()=> {document.body.style.backgroundColor=a[i];
+i=(i+1)%a.length;}, 1000);
+    }
+    function diss(){
+        let div=document.querySelector('division-block');
+        if(div.style.display==='none'){
+            div.style.display='block';}
+            else{
+                div.style.display='none';
+
+            }
+        }
+        function effect(){
+            let p=document.querySelector('.tutorial');
+            p.style.backgroundColor = 'green';
+            p.style.color ='white';
+            p.style.fontSize = '20px';
+            p.style.fontWeight = 'bold';
+            p.style.border = '2px solid black';
+            p.style.padding='10px';
+            p.style.textAlign='center';
+
+        }
+</script>
+</body>
+</html>
+        
